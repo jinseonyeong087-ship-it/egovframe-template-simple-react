@@ -16,6 +16,8 @@
 단순 홈페이지 기능 구현 시 필수적인 부분만 사용 가능하도록 경량화 된 실행환경 제공  
 메인 페이지, 사용자 관리, 공지사항 관리, 게시판 관리, 안내 관리 기능을 제공
 
+![alt text](image.png)
+
 ### 메뉴 구성
 
 ![menu_sht_v4](https://github.com/user-attachments/assets/4aad1e74-873a-4ed9-8df9-97958bcccbc8)
@@ -169,3 +171,4 @@ npm run test:run
 
 1. [vite 공식 가이드 문서(한글)](https://vitejs-kr.github.io/guide/)
 2. [개발환경 초기 설정](./Docs/development-env-setting.md)
+<test 입니다.>
