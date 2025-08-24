@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react({
-    // JSX Ã³¸®¸¦ À§ÇÑ Ãß°¡ ¼³Á¤
+    // JSX Ã³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½
     include: "**/*.{jsx,js}",
   })],
   
@@ -21,16 +21,16 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./vitest.setup.js",
     transformMode: {
-      web: [/\.[jt]sx?$/],  // ¸ðµç JS/JSX/TS/TSX ÆÄÀÏÀ» web ¸ðµå·Î º¯È¯
+      web: [/\.[jt]sx?$/],  // ï¿½ï¿½ï¿½ JS/JSX/TS/TSX ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ web ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
     },
   },
   build: {
     chunkSizeWarningLimit: 100000000,
   },
-  // .js ÆÄÀÏ¿¡¼­ JSX ±¸¹®À» Áö¿øÇÏµµ·Ï ¼³Á¤
+  // .js ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ JSX ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
   esbuild: {
     loader: "jsx",
-    include: /\.[jt]sx?$/,  // .js, .jsx, .ts, .tsx ¸ðµÎ Æ÷ÇÔ
+    include: /\.[jt]sx?$/,  // .js, .jsx, .ts, .tsx ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     exclude: [],
   },
   optimizeDeps: {
